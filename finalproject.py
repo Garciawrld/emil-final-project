@@ -14,13 +14,12 @@ class books():
         print (self.books)
  
      
-"""
-    def (self):
 
-        self.title = input ('divine comedy:\n')
-        self.author = input ("Dante alighiei: \n ")
-        self.price = input ("$10: \n ")
+def (self):
+
+self.title = input ('divine comedy:\n')
+self.author = input ("Dante alighiei: \n ")
+self.price = input ("$10: \n ")
 
 dict = self.title or {("author")}
- 
-"""
+dict = 
