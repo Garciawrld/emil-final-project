@@ -15,11 +15,12 @@ class books():
  
      
 
-def (self):
+def add (self):
 
-self.title = input ('divine comedy:\n')
-self.author = input ("Dante alighiei: \n ")
-self.price = input ("$10: \n ")
-
+    self.title = input ('enter the name of the book you would like to add\n')
+    self.author = input ("enter the author of the bookyou just add \n ")
+    self.price=float (input ("enter the price of the book \n "))
+    self.books[self.title]= {'author': self.author, 'price': self.price}
+    
 dict = self.title or {("author")}
 dict = 
