@@ -40,4 +40,5 @@ def showbooks (self):
 
 def options (self):
 
+     name = input ("how would you like to name this file\n ")
      
