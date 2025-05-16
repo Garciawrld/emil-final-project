@@ -8,8 +8,8 @@ class books():
         self.name = ""
 
     def hey(self):
-        self.title = input ("add a book")
-        self.author = input ("enter a author ")
+        self.title = input ("add a book").upper()
+        self.author = input ("enter a author ").upper()
         self.price =  input ("$10")
         self.books[self.title] = {"author": self.author,"price": self.price }
         print (self.books)
@@ -38,7 +38,18 @@ def showbooks (self):
      print(self.books ['Author'])     
      print(self.books ['price'])    
 
-def options (self):
 
-     name = input ("how would you like to name this file\n ")
      
+def options(self):
+       myfile = open('myfile.txt', 'w')
+       self.books[self.title] = {"writer":self.author, "price": self.price }
+       for a in self.books:
+         myfile.write(a)
+         myfile.write("\n")
+         myfile.write(self.books[a]["writer"])
+         myfile.write("\n")
+         myfile.write(self.books[a]["price"])
+         myfile.write("\n")
+       myfile.close()
+       myfile.write("\n")
+       print(myfile)
