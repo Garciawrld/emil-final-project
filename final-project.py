@@ -2,9 +2,10 @@
 
 from finalproject import books
 
-b = books()
+v = ""
+b=books()
 
-while v != "quit":
+while v  != "quit":
         v = input("\nwould you like to add a book?\n1. for yes \n2 for delete\n3.show library\n4. option for a file \nEnter choice (1/2/3/4): " )
         if v=="1":
                 c=b.add()
